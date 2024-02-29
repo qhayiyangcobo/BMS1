@@ -44,7 +44,7 @@ namespace BMS1
             decimal bal = 0.00m;
             
 
-            string connectionString = @"Data Source = LAPTOP-IH87CTS5\SQLEXPRESS; Initial Catalog = BMS1; Integrated Security = True; TrustServerCertificate = True";
+            string connectionString = @"Data Source = .\SQLEXPRESS; Initial Catalog = BMS1; Integrated Security = True; TrustServerCertificate = True";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
